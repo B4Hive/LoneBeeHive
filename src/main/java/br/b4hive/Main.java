@@ -3,9 +3,9 @@ package br.b4hive;
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println("Lone BeeHive: Megachile's Journey");
-
+        System.out.println();
+        System.out.println("***Lone BeeHive: Megachile's Journey***");
+        System.out.println();
     }
 
 }
