@@ -1,7 +1,11 @@
 package br.b4hive;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        System.out.println("Lone BeeHive: Megachile's Journey");
+
     }
+
 }
