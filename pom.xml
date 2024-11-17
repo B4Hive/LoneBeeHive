@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>br.b4hive.Main</mainClass>
+                            <mainClass>br.b4hive.LoneBeehive</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
