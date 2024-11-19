@@ -22,246 +22,1562 @@ public class Tela extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        mapJPanel = new javax.swing.JPanel();
+        mapOuterJPanel = new javax.swing.JPanel();
+        mapJSplitPane = new javax.swing.JSplitPane();
         mapGridJPanel = new javax.swing.JPanel();
+        tile_n3w3 = new javax.swing.JPanel();
+        jLabel124 = new javax.swing.JLabel();
+        jLabel125 = new javax.swing.JLabel();
+        jLabel126 = new javax.swing.JLabel();
+        tile_n3w2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        tile_n3w1 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        tile_n3 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        tile_n3e1 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
+        tile_n3e2 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
+        tile_n3e3 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
+        tile_n2w3 = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
+        tile_n2w2 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
+        tile_n2w1 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
+        tile_n2 = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
+        tile_n2e1 = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
+        tile_n2e2 = new javax.swing.JPanel();
         jLabel34 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
+        tile_n2e3 = new javax.swing.JPanel();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
+        tile_n1w3 = new javax.swing.JPanel();
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
+        tile_n1w2 = new javax.swing.JPanel();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
+        tile_n1w1 = new javax.swing.JPanel();
         jLabel46 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
+        tile_n1 = new javax.swing.JPanel();
         jLabel49 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        tile_n1e1 = new javax.swing.JPanel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        tile_n1e2 = new javax.swing.JPanel();
+        jLabel55 = new javax.swing.JLabel();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        tile_n1e3 = new javax.swing.JPanel();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        tile_w3 = new javax.swing.JPanel();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        tile_w2 = new javax.swing.JPanel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        tile_w1 = new javax.swing.JPanel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        tile_0 = new javax.swing.JPanel();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        tile_e1 = new javax.swing.JPanel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        tile_e2 = new javax.swing.JPanel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        tile_e3 = new javax.swing.JPanel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        tile_s1w3 = new javax.swing.JPanel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        tile_s1w2 = new javax.swing.JPanel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        tile_s1w1 = new javax.swing.JPanel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        tile_s1 = new javax.swing.JPanel();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        tile_s1e1 = new javax.swing.JPanel();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        tile_s1e2 = new javax.swing.JPanel();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        tile_s1e3 = new javax.swing.JPanel();
+        jLabel100 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
+        tile_s2w3 = new javax.swing.JPanel();
+        jLabel103 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        jLabel105 = new javax.swing.JLabel();
+        tile_s2w2 = new javax.swing.JPanel();
+        jLabel106 = new javax.swing.JLabel();
+        jLabel107 = new javax.swing.JLabel();
+        jLabel108 = new javax.swing.JLabel();
+        tile_s2w1 = new javax.swing.JPanel();
+        jLabel109 = new javax.swing.JLabel();
+        jLabel110 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
+        tile_s2 = new javax.swing.JPanel();
+        jLabel112 = new javax.swing.JLabel();
+        jLabel113 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
+        tile_s2e1 = new javax.swing.JPanel();
+        jLabel115 = new javax.swing.JLabel();
+        jLabel116 = new javax.swing.JLabel();
+        jLabel117 = new javax.swing.JLabel();
+        tile_s2e2 = new javax.swing.JPanel();
+        jLabel118 = new javax.swing.JLabel();
+        jLabel119 = new javax.swing.JLabel();
+        jLabel120 = new javax.swing.JLabel();
+        tile_s2e3 = new javax.swing.JPanel();
+        jLabel121 = new javax.swing.JLabel();
+        jLabel122 = new javax.swing.JLabel();
+        jLabel123 = new javax.swing.JLabel();
+        tile_s3w3 = new javax.swing.JPanel();
+        jLabel127 = new javax.swing.JLabel();
+        jLabel128 = new javax.swing.JLabel();
+        jLabel129 = new javax.swing.JLabel();
+        tile_s3w2 = new javax.swing.JPanel();
+        jLabel130 = new javax.swing.JLabel();
+        jLabel131 = new javax.swing.JLabel();
+        jLabel132 = new javax.swing.JLabel();
+        tile_s3w1 = new javax.swing.JPanel();
+        jLabel133 = new javax.swing.JLabel();
+        jLabel134 = new javax.swing.JLabel();
+        jLabel135 = new javax.swing.JLabel();
+        tile_s3 = new javax.swing.JPanel();
+        jLabel136 = new javax.swing.JLabel();
+        jLabel137 = new javax.swing.JLabel();
+        jLabel138 = new javax.swing.JLabel();
+        tile_s3e1 = new javax.swing.JPanel();
+        jLabel139 = new javax.swing.JLabel();
+        jLabel140 = new javax.swing.JLabel();
+        jLabel141 = new javax.swing.JLabel();
+        tile_s3e2 = new javax.swing.JPanel();
+        jLabel142 = new javax.swing.JLabel();
+        jLabel143 = new javax.swing.JLabel();
+        jLabel144 = new javax.swing.JLabel();
+        tile_s3e3 = new javax.swing.JPanel();
+        jLabel145 = new javax.swing.JLabel();
+        jLabel146 = new javax.swing.JLabel();
+        jLabel147 = new javax.swing.JLabel();
+        sideJPanel = new javax.swing.JPanel();
+        healthBarJLabel = new javax.swing.JLabel();
+        HealthJProgressBar = new javax.swing.JProgressBar();
+        energyBarJLabel = new javax.swing.JLabel();
+        EnergyJProgressBar = new javax.swing.JProgressBar();
+        miniMapJPanel = new javax.swing.JPanel();
         titleJPanel = new javax.swing.JPanel();
         titleJLabel = new javax.swing.JLabel();
         mainJMenuBar = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
+        GameJMenu = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Lone Beehive: Megachile");
         setMaximumSize(new java.awt.Dimension(800, 600));
         setMinimumSize(new java.awt.Dimension(800, 600));
+        setPreferredSize(new java.awt.Dimension(800, 600));
         setResizable(false);
         setSize(new java.awt.Dimension(800, 600));
         getContentPane().setLayout(new javax.swing.OverlayLayout(getContentPane()));
 
-        mapJPanel.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "MapPanel"));
-        mapJPanel.setLayout(new java.awt.BorderLayout());
+        mapOuterJPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        mapOuterJPanel.setLayout(new java.awt.BorderLayout());
 
-        mapGridJPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        mapJSplitPane.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        mapJSplitPane.setDividerLocation(560);
+        mapJSplitPane.setDividerSize(0);
+
+        mapGridJPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        mapGridJPanel.setMaximumSize(new java.awt.Dimension(560, 560));
+        mapGridJPanel.setMinimumSize(new java.awt.Dimension(560, 560));
+        mapGridJPanel.setPreferredSize(new java.awt.Dimension(560, 560));
         mapGridJPanel.setLayout(new java.awt.GridLayout(7, 7));
 
+        tile_n3w3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n3w3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n3w3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n3w3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w3.setLayout(new javax.swing.OverlayLayout(tile_n3w3));
+
+        jLabel124.setText("jLabel1");
+        jLabel124.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel124.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel124.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w3.add(jLabel124);
+
+        jLabel125.setText("jLabel2");
+        jLabel125.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel125.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel125.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w3.add(jLabel125);
+
+        jLabel126.setText("jLabel3");
+        jLabel126.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel126.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel126.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w3.add(jLabel126);
+
+        mapGridJPanel.add(tile_n3w3);
+
+        tile_n3w2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n3w2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n3w2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n3w2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w2.setLayout(new javax.swing.OverlayLayout(tile_n3w2));
+
         jLabel1.setText("jLabel1");
-        mapGridJPanel.add(jLabel1);
+        jLabel1.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel1.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w2.add(jLabel1);
 
         jLabel2.setText("jLabel2");
-        mapGridJPanel.add(jLabel2);
+        jLabel2.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel2.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w2.add(jLabel2);
 
         jLabel3.setText("jLabel3");
-        mapGridJPanel.add(jLabel3);
+        jLabel3.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel3.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w2.add(jLabel3);
 
-        jLabel4.setText("jLabel4");
-        mapGridJPanel.add(jLabel4);
+        mapGridJPanel.add(tile_n3w2);
 
-        jLabel5.setText("jLabel5");
-        mapGridJPanel.add(jLabel5);
+        tile_n3w1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n3w1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n3w1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n3w1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w1.setLayout(new javax.swing.OverlayLayout(tile_n3w1));
 
-        jLabel6.setText("jLabel6");
-        mapGridJPanel.add(jLabel6);
+        jLabel4.setText("jLabel1");
+        jLabel4.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel4.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel4.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w1.add(jLabel4);
 
-        jLabel7.setText("jLabel7");
-        mapGridJPanel.add(jLabel7);
+        jLabel5.setText("jLabel2");
+        jLabel5.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel5.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel5.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w1.add(jLabel5);
 
-        jLabel8.setText("jLabel8");
-        mapGridJPanel.add(jLabel8);
+        jLabel6.setText("jLabel3");
+        jLabel6.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel6.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel6.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3w1.add(jLabel6);
 
-        jLabel9.setText("jLabel9");
-        mapGridJPanel.add(jLabel9);
+        mapGridJPanel.add(tile_n3w1);
 
-        jLabel10.setText("jLabel10");
-        mapGridJPanel.add(jLabel10);
+        tile_n3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3.setLayout(new javax.swing.OverlayLayout(tile_n3));
 
-        jLabel11.setText("jLabel11");
-        mapGridJPanel.add(jLabel11);
+        jLabel7.setText("jLabel1");
+        jLabel7.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel7.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel7.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3.add(jLabel7);
 
-        jLabel12.setText("jLabel12");
-        mapGridJPanel.add(jLabel12);
+        jLabel8.setText("jLabel2");
+        jLabel8.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel8.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel8.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3.add(jLabel8);
 
-        jLabel13.setText("jLabel13");
-        mapGridJPanel.add(jLabel13);
+        jLabel9.setText("jLabel3");
+        jLabel9.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel9.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel9.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3.add(jLabel9);
 
-        jLabel14.setText("jLabel14");
-        mapGridJPanel.add(jLabel14);
+        mapGridJPanel.add(tile_n3);
 
-        jLabel15.setText("jLabel15");
-        mapGridJPanel.add(jLabel15);
+        tile_n3e1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n3e1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n3e1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n3e1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e1.setLayout(new javax.swing.OverlayLayout(tile_n3e1));
 
-        jLabel16.setText("jLabel16");
-        mapGridJPanel.add(jLabel16);
+        jLabel10.setText("jLabel1");
+        jLabel10.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel10.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel10.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e1.add(jLabel10);
 
-        jLabel17.setText("jLabel17");
-        mapGridJPanel.add(jLabel17);
+        jLabel11.setText("jLabel2");
+        jLabel11.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel11.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel11.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e1.add(jLabel11);
 
-        jLabel18.setText("jLabel18");
-        mapGridJPanel.add(jLabel18);
+        jLabel12.setText("jLabel3");
+        jLabel12.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel12.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel12.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e1.add(jLabel12);
 
-        jLabel19.setText("jLabel19");
-        mapGridJPanel.add(jLabel19);
+        mapGridJPanel.add(tile_n3e1);
 
-        jLabel20.setText("jLabel20");
-        mapGridJPanel.add(jLabel20);
+        tile_n3e2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n3e2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n3e2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n3e2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e2.setLayout(new javax.swing.OverlayLayout(tile_n3e2));
 
-        jLabel21.setText("jLabel21");
-        mapGridJPanel.add(jLabel21);
+        jLabel13.setText("jLabel1");
+        jLabel13.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel13.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel13.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e2.add(jLabel13);
 
-        jLabel22.setText("jLabel22");
-        mapGridJPanel.add(jLabel22);
+        jLabel14.setText("jLabel2");
+        jLabel14.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel14.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel14.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e2.add(jLabel14);
 
-        jLabel23.setText("jLabel23");
-        mapGridJPanel.add(jLabel23);
+        jLabel15.setText("jLabel3");
+        jLabel15.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel15.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel15.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e2.add(jLabel15);
 
-        jLabel24.setText("jLabel24");
-        mapGridJPanel.add(jLabel24);
+        mapGridJPanel.add(tile_n3e2);
 
-        jLabel25.setText("jLabel25");
-        mapGridJPanel.add(jLabel25);
+        tile_n3e3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n3e3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n3e3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n3e3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e3.setLayout(new javax.swing.OverlayLayout(tile_n3e3));
 
-        jLabel26.setText("jLabel26");
-        mapGridJPanel.add(jLabel26);
+        jLabel16.setText("jLabel1");
+        jLabel16.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel16.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel16.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e3.add(jLabel16);
 
-        jLabel27.setText("jLabel27");
-        mapGridJPanel.add(jLabel27);
+        jLabel17.setText("jLabel2");
+        jLabel17.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel17.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel17.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e3.add(jLabel17);
 
-        jLabel28.setText("jLabel28");
-        mapGridJPanel.add(jLabel28);
+        jLabel18.setText("jLabel3");
+        jLabel18.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel18.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel18.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n3e3.add(jLabel18);
 
-        jLabel29.setText("jLabel29");
-        mapGridJPanel.add(jLabel29);
+        mapGridJPanel.add(tile_n3e3);
 
-        jLabel30.setText("jLabel30");
-        mapGridJPanel.add(jLabel30);
+        tile_n2w3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n2w3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n2w3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n2w3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w3.setLayout(new javax.swing.OverlayLayout(tile_n2w3));
 
-        jLabel31.setText("jLabel31");
-        mapGridJPanel.add(jLabel31);
+        jLabel19.setText("jLabel1");
+        jLabel19.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel19.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel19.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w3.add(jLabel19);
 
-        jLabel32.setText("jLabel32");
-        mapGridJPanel.add(jLabel32);
+        jLabel20.setText("jLabel2");
+        jLabel20.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel20.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel20.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w3.add(jLabel20);
 
-        jLabel33.setText("jLabel33");
-        mapGridJPanel.add(jLabel33);
+        jLabel21.setText("jLabel3");
+        jLabel21.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel21.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel21.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w3.add(jLabel21);
 
-        jLabel34.setText("jLabel34");
-        mapGridJPanel.add(jLabel34);
+        mapGridJPanel.add(tile_n2w3);
 
-        jLabel35.setText("jLabel35");
-        mapGridJPanel.add(jLabel35);
+        tile_n2w2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n2w2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n2w2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n2w2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w2.setLayout(new javax.swing.OverlayLayout(tile_n2w2));
 
-        jLabel36.setText("jLabel36");
-        mapGridJPanel.add(jLabel36);
+        jLabel22.setText("jLabel1");
+        jLabel22.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel22.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel22.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w2.add(jLabel22);
 
-        jLabel37.setText("jLabel37");
-        mapGridJPanel.add(jLabel37);
+        jLabel23.setText("jLabel2");
+        jLabel23.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel23.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel23.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w2.add(jLabel23);
 
-        jLabel38.setText("jLabel38");
-        mapGridJPanel.add(jLabel38);
+        jLabel24.setText("jLabel3");
+        jLabel24.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel24.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel24.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w2.add(jLabel24);
 
-        jLabel39.setText("jLabel39");
-        mapGridJPanel.add(jLabel39);
+        mapGridJPanel.add(tile_n2w2);
 
-        jLabel40.setText("jLabel40");
-        mapGridJPanel.add(jLabel40);
+        tile_n2w1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n2w1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n2w1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n2w1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w1.setLayout(new javax.swing.OverlayLayout(tile_n2w1));
 
-        jLabel41.setText("jLabel41");
-        mapGridJPanel.add(jLabel41);
+        jLabel25.setText("jLabel1");
+        jLabel25.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel25.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel25.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w1.add(jLabel25);
 
-        jLabel42.setText("jLabel42");
-        mapGridJPanel.add(jLabel42);
+        jLabel26.setText("jLabel2");
+        jLabel26.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel26.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel26.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w1.add(jLabel26);
 
-        jLabel43.setText("jLabel43");
-        mapGridJPanel.add(jLabel43);
+        jLabel27.setText("jLabel3");
+        jLabel27.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel27.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel27.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2w1.add(jLabel27);
 
-        jLabel44.setText("jLabel44");
-        mapGridJPanel.add(jLabel44);
+        mapGridJPanel.add(tile_n2w1);
 
-        jLabel45.setText("jLabel45");
-        mapGridJPanel.add(jLabel45);
+        tile_n2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2.setLayout(new javax.swing.OverlayLayout(tile_n2));
 
-        jLabel46.setText("jLabel46");
-        mapGridJPanel.add(jLabel46);
+        jLabel28.setText("jLabel1");
+        jLabel28.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel28.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel28.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2.add(jLabel28);
 
-        jLabel47.setText("jLabel47");
-        mapGridJPanel.add(jLabel47);
+        jLabel29.setText("jLabel2");
+        jLabel29.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel29.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel29.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2.add(jLabel29);
 
-        jLabel48.setText("jLabel48");
-        mapGridJPanel.add(jLabel48);
+        jLabel30.setText("jLabel3");
+        jLabel30.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel30.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel30.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2.add(jLabel30);
 
-        jLabel49.setText("jLabel49");
-        mapGridJPanel.add(jLabel49);
+        mapGridJPanel.add(tile_n2);
 
-        mapJPanel.add(mapGridJPanel, java.awt.BorderLayout.CENTER);
+        tile_n2e1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n2e1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n2e1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n2e1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e1.setLayout(new javax.swing.OverlayLayout(tile_n2e1));
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jLabel31.setText("jLabel1");
+        jLabel31.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel31.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel31.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e1.add(jLabel31);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 549, Short.MAX_VALUE)
-        );
+        jLabel32.setText("jLabel2");
+        jLabel32.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel32.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel32.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e1.add(jLabel32);
 
-        mapJPanel.add(jPanel2, java.awt.BorderLayout.LINE_END);
+        jLabel33.setText("jLabel3");
+        jLabel33.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel33.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel33.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e1.add(jLabel33);
 
-        getContentPane().add(mapJPanel);
+        mapGridJPanel.add(tile_n2e1);
 
-        titleJPanel.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "TitlePanel")));
-        titleJPanel.setLayout(new java.awt.GridLayout());
+        tile_n2e2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n2e2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n2e2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n2e2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e2.setLayout(new javax.swing.OverlayLayout(tile_n2e2));
+
+        jLabel34.setText("jLabel1");
+        jLabel34.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel34.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel34.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e2.add(jLabel34);
+
+        jLabel35.setText("jLabel2");
+        jLabel35.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel35.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel35.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e2.add(jLabel35);
+
+        jLabel36.setText("jLabel3");
+        jLabel36.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel36.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel36.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e2.add(jLabel36);
+
+        mapGridJPanel.add(tile_n2e2);
+
+        tile_n2e3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n2e3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n2e3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n2e3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e3.setLayout(new javax.swing.OverlayLayout(tile_n2e3));
+
+        jLabel37.setText("jLabel1");
+        jLabel37.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel37.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel37.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e3.add(jLabel37);
+
+        jLabel38.setText("jLabel2");
+        jLabel38.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel38.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel38.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e3.add(jLabel38);
+
+        jLabel39.setText("jLabel3");
+        jLabel39.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel39.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel39.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n2e3.add(jLabel39);
+
+        mapGridJPanel.add(tile_n2e3);
+
+        tile_n1w3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n1w3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n1w3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n1w3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w3.setLayout(new javax.swing.OverlayLayout(tile_n1w3));
+
+        jLabel40.setText("jLabel1");
+        jLabel40.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel40.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel40.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w3.add(jLabel40);
+
+        jLabel41.setText("jLabel2");
+        jLabel41.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel41.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel41.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w3.add(jLabel41);
+
+        jLabel42.setText("jLabel3");
+        jLabel42.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel42.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel42.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w3.add(jLabel42);
+
+        mapGridJPanel.add(tile_n1w3);
+
+        tile_n1w2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n1w2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n1w2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n1w2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w2.setLayout(new javax.swing.OverlayLayout(tile_n1w2));
+
+        jLabel43.setText("jLabel1");
+        jLabel43.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel43.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel43.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w2.add(jLabel43);
+
+        jLabel44.setText("jLabel2");
+        jLabel44.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel44.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel44.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w2.add(jLabel44);
+
+        jLabel45.setText("jLabel3");
+        jLabel45.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel45.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel45.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w2.add(jLabel45);
+
+        mapGridJPanel.add(tile_n1w2);
+
+        tile_n1w1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n1w1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n1w1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n1w1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w1.setLayout(new javax.swing.OverlayLayout(tile_n1w1));
+
+        jLabel46.setText("jLabel1");
+        jLabel46.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel46.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel46.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w1.add(jLabel46);
+
+        jLabel47.setText("jLabel2");
+        jLabel47.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel47.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel47.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w1.add(jLabel47);
+
+        jLabel48.setText("jLabel3");
+        jLabel48.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel48.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel48.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1w1.add(jLabel48);
+
+        mapGridJPanel.add(tile_n1w1);
+
+        tile_n1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1.setLayout(new javax.swing.OverlayLayout(tile_n1));
+
+        jLabel49.setText("jLabel1");
+        jLabel49.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel49.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel49.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1.add(jLabel49);
+
+        jLabel50.setText("jLabel2");
+        jLabel50.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel50.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel50.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1.add(jLabel50);
+
+        jLabel51.setText("jLabel3");
+        jLabel51.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel51.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel51.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1.add(jLabel51);
+
+        mapGridJPanel.add(tile_n1);
+
+        tile_n1e1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n1e1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n1e1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n1e1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e1.setLayout(new javax.swing.OverlayLayout(tile_n1e1));
+
+        jLabel52.setText("jLabel1");
+        jLabel52.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel52.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel52.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e1.add(jLabel52);
+
+        jLabel53.setText("jLabel2");
+        jLabel53.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel53.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel53.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e1.add(jLabel53);
+
+        jLabel54.setText("jLabel3");
+        jLabel54.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel54.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel54.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e1.add(jLabel54);
+
+        mapGridJPanel.add(tile_n1e1);
+
+        tile_n1e2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n1e2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n1e2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n1e2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e2.setLayout(new javax.swing.OverlayLayout(tile_n1e2));
+
+        jLabel55.setText("jLabel1");
+        jLabel55.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel55.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel55.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e2.add(jLabel55);
+
+        jLabel56.setText("jLabel2");
+        jLabel56.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel56.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel56.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e2.add(jLabel56);
+
+        jLabel57.setText("jLabel3");
+        jLabel57.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel57.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel57.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e2.add(jLabel57);
+
+        mapGridJPanel.add(tile_n1e2);
+
+        tile_n1e3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_n1e3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_n1e3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_n1e3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e3.setLayout(new javax.swing.OverlayLayout(tile_n1e3));
+
+        jLabel58.setText("jLabel1");
+        jLabel58.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel58.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel58.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e3.add(jLabel58);
+
+        jLabel59.setText("jLabel2");
+        jLabel59.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel59.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel59.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e3.add(jLabel59);
+
+        jLabel60.setText("jLabel3");
+        jLabel60.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel60.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel60.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_n1e3.add(jLabel60);
+
+        mapGridJPanel.add(tile_n1e3);
+
+        tile_w3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_w3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_w3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_w3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w3.setLayout(new javax.swing.OverlayLayout(tile_w3));
+
+        jLabel61.setText("jLabel1");
+        jLabel61.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel61.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel61.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w3.add(jLabel61);
+
+        jLabel62.setText("jLabel2");
+        jLabel62.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel62.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel62.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w3.add(jLabel62);
+
+        jLabel63.setText("jLabel3");
+        jLabel63.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel63.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel63.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w3.add(jLabel63);
+
+        mapGridJPanel.add(tile_w3);
+
+        tile_w2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_w2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_w2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_w2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w2.setLayout(new javax.swing.OverlayLayout(tile_w2));
+
+        jLabel64.setText("jLabel1");
+        jLabel64.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel64.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel64.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w2.add(jLabel64);
+
+        jLabel65.setText("jLabel2");
+        jLabel65.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel65.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel65.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w2.add(jLabel65);
+
+        jLabel66.setText("jLabel3");
+        jLabel66.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel66.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel66.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w2.add(jLabel66);
+
+        mapGridJPanel.add(tile_w2);
+
+        tile_w1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_w1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_w1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_w1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w1.setLayout(new javax.swing.OverlayLayout(tile_w1));
+
+        jLabel67.setText("jLabel1");
+        jLabel67.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel67.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel67.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w1.add(jLabel67);
+
+        jLabel68.setText("jLabel2");
+        jLabel68.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel68.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel68.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w1.add(jLabel68);
+
+        jLabel69.setText("jLabel3");
+        jLabel69.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel69.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel69.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_w1.add(jLabel69);
+
+        mapGridJPanel.add(tile_w1);
+
+        tile_0.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_0.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_0.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_0.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_0.setLayout(new javax.swing.OverlayLayout(tile_0));
+
+        jLabel70.setText("jLabel1");
+        jLabel70.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel70.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel70.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_0.add(jLabel70);
+
+        jLabel71.setText("jLabel2");
+        jLabel71.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel71.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel71.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_0.add(jLabel71);
+
+        jLabel72.setText("jLabel3");
+        jLabel72.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel72.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel72.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_0.add(jLabel72);
+
+        mapGridJPanel.add(tile_0);
+
+        tile_e1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_e1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_e1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_e1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e1.setLayout(new javax.swing.OverlayLayout(tile_e1));
+
+        jLabel73.setText("jLabel1");
+        jLabel73.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel73.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel73.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e1.add(jLabel73);
+
+        jLabel74.setText("jLabel2");
+        jLabel74.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel74.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel74.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e1.add(jLabel74);
+
+        jLabel75.setText("jLabel3");
+        jLabel75.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel75.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel75.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e1.add(jLabel75);
+
+        mapGridJPanel.add(tile_e1);
+
+        tile_e2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_e2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_e2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_e2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e2.setLayout(new javax.swing.OverlayLayout(tile_e2));
+
+        jLabel76.setText("jLabel1");
+        jLabel76.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel76.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel76.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e2.add(jLabel76);
+
+        jLabel77.setText("jLabel2");
+        jLabel77.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel77.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel77.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e2.add(jLabel77);
+
+        jLabel78.setText("jLabel3");
+        jLabel78.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel78.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel78.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e2.add(jLabel78);
+
+        mapGridJPanel.add(tile_e2);
+
+        tile_e3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_e3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_e3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_e3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e3.setLayout(new javax.swing.OverlayLayout(tile_e3));
+
+        jLabel79.setText("jLabel1");
+        jLabel79.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel79.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel79.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e3.add(jLabel79);
+
+        jLabel80.setText("jLabel2");
+        jLabel80.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel80.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel80.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e3.add(jLabel80);
+
+        jLabel81.setText("jLabel3");
+        jLabel81.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel81.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel81.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_e3.add(jLabel81);
+
+        mapGridJPanel.add(tile_e3);
+
+        tile_s1w3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s1w3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s1w3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s1w3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w3.setLayout(new javax.swing.OverlayLayout(tile_s1w3));
+
+        jLabel82.setText("jLabel1");
+        jLabel82.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel82.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel82.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w3.add(jLabel82);
+
+        jLabel83.setText("jLabel2");
+        jLabel83.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel83.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel83.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w3.add(jLabel83);
+
+        jLabel84.setText("jLabel3");
+        jLabel84.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel84.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel84.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w3.add(jLabel84);
+
+        mapGridJPanel.add(tile_s1w3);
+
+        tile_s1w2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s1w2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s1w2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s1w2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w2.setLayout(new javax.swing.OverlayLayout(tile_s1w2));
+
+        jLabel85.setText("jLabel1");
+        jLabel85.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel85.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel85.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w2.add(jLabel85);
+
+        jLabel86.setText("jLabel2");
+        jLabel86.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel86.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel86.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w2.add(jLabel86);
+
+        jLabel87.setText("jLabel3");
+        jLabel87.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel87.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel87.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w2.add(jLabel87);
+
+        mapGridJPanel.add(tile_s1w2);
+
+        tile_s1w1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s1w1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s1w1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s1w1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w1.setLayout(new javax.swing.OverlayLayout(tile_s1w1));
+
+        jLabel88.setText("jLabel1");
+        jLabel88.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel88.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel88.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w1.add(jLabel88);
+
+        jLabel89.setText("jLabel2");
+        jLabel89.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel89.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel89.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w1.add(jLabel89);
+
+        jLabel90.setText("jLabel3");
+        jLabel90.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel90.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel90.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1w1.add(jLabel90);
+
+        mapGridJPanel.add(tile_s1w1);
+
+        tile_s1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1.setLayout(new javax.swing.OverlayLayout(tile_s1));
+
+        jLabel91.setText("jLabel1");
+        jLabel91.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel91.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel91.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1.add(jLabel91);
+
+        jLabel92.setText("jLabel2");
+        jLabel92.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel92.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel92.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1.add(jLabel92);
+
+        jLabel93.setText("jLabel3");
+        jLabel93.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel93.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel93.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1.add(jLabel93);
+
+        mapGridJPanel.add(tile_s1);
+
+        tile_s1e1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s1e1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s1e1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s1e1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e1.setLayout(new javax.swing.OverlayLayout(tile_s1e1));
+
+        jLabel94.setText("jLabel1");
+        jLabel94.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel94.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel94.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e1.add(jLabel94);
+
+        jLabel95.setText("jLabel2");
+        jLabel95.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel95.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel95.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e1.add(jLabel95);
+
+        jLabel96.setText("jLabel3");
+        jLabel96.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel96.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel96.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e1.add(jLabel96);
+
+        mapGridJPanel.add(tile_s1e1);
+
+        tile_s1e2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s1e2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s1e2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s1e2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e2.setLayout(new javax.swing.OverlayLayout(tile_s1e2));
+
+        jLabel97.setText("jLabel1");
+        jLabel97.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel97.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel97.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e2.add(jLabel97);
+
+        jLabel98.setText("jLabel2");
+        jLabel98.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel98.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel98.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e2.add(jLabel98);
+
+        jLabel99.setText("jLabel3");
+        jLabel99.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel99.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel99.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e2.add(jLabel99);
+
+        mapGridJPanel.add(tile_s1e2);
+
+        tile_s1e3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s1e3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s1e3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s1e3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e3.setLayout(new javax.swing.OverlayLayout(tile_s1e3));
+
+        jLabel100.setText("jLabel1");
+        jLabel100.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel100.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel100.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e3.add(jLabel100);
+
+        jLabel101.setText("jLabel2");
+        jLabel101.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel101.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel101.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e3.add(jLabel101);
+
+        jLabel102.setText("jLabel3");
+        jLabel102.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel102.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel102.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s1e3.add(jLabel102);
+
+        mapGridJPanel.add(tile_s1e3);
+
+        tile_s2w3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s2w3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s2w3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s2w3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w3.setLayout(new javax.swing.OverlayLayout(tile_s2w3));
+
+        jLabel103.setText("jLabel1");
+        jLabel103.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel103.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel103.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w3.add(jLabel103);
+
+        jLabel104.setText("jLabel2");
+        jLabel104.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel104.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel104.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w3.add(jLabel104);
+
+        jLabel105.setText("jLabel3");
+        jLabel105.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel105.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel105.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w3.add(jLabel105);
+
+        mapGridJPanel.add(tile_s2w3);
+
+        tile_s2w2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s2w2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s2w2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s2w2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w2.setLayout(new javax.swing.OverlayLayout(tile_s2w2));
+
+        jLabel106.setText("jLabel1");
+        jLabel106.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel106.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel106.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w2.add(jLabel106);
+
+        jLabel107.setText("jLabel2");
+        jLabel107.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel107.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel107.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w2.add(jLabel107);
+
+        jLabel108.setText("jLabel3");
+        jLabel108.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel108.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel108.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w2.add(jLabel108);
+
+        mapGridJPanel.add(tile_s2w2);
+
+        tile_s2w1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s2w1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s2w1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s2w1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w1.setLayout(new javax.swing.OverlayLayout(tile_s2w1));
+
+        jLabel109.setText("jLabel1");
+        jLabel109.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel109.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel109.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w1.add(jLabel109);
+
+        jLabel110.setText("jLabel2");
+        jLabel110.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel110.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel110.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w1.add(jLabel110);
+
+        jLabel111.setText("jLabel3");
+        jLabel111.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel111.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel111.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2w1.add(jLabel111);
+
+        mapGridJPanel.add(tile_s2w1);
+
+        tile_s2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2.setLayout(new javax.swing.OverlayLayout(tile_s2));
+
+        jLabel112.setText("jLabel1");
+        jLabel112.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel112.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel112.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2.add(jLabel112);
+
+        jLabel113.setText("jLabel2");
+        jLabel113.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel113.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel113.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2.add(jLabel113);
+
+        jLabel114.setText("jLabel3");
+        jLabel114.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel114.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel114.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2.add(jLabel114);
+
+        mapGridJPanel.add(tile_s2);
+
+        tile_s2e1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s2e1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s2e1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s2e1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e1.setLayout(new javax.swing.OverlayLayout(tile_s2e1));
+
+        jLabel115.setText("jLabel1");
+        jLabel115.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel115.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel115.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e1.add(jLabel115);
+
+        jLabel116.setText("jLabel2");
+        jLabel116.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel116.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel116.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e1.add(jLabel116);
+
+        jLabel117.setText("jLabel3");
+        jLabel117.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel117.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel117.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e1.add(jLabel117);
+
+        mapGridJPanel.add(tile_s2e1);
+
+        tile_s2e2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s2e2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s2e2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s2e2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e2.setLayout(new javax.swing.OverlayLayout(tile_s2e2));
+
+        jLabel118.setText("jLabel1");
+        jLabel118.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel118.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel118.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e2.add(jLabel118);
+
+        jLabel119.setText("jLabel2");
+        jLabel119.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel119.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel119.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e2.add(jLabel119);
+
+        jLabel120.setText("jLabel3");
+        jLabel120.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel120.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel120.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e2.add(jLabel120);
+
+        mapGridJPanel.add(tile_s2e2);
+
+        tile_s2e3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s2e3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s2e3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s2e3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e3.setLayout(new javax.swing.OverlayLayout(tile_s2e3));
+
+        jLabel121.setText("jLabel1");
+        jLabel121.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel121.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel121.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e3.add(jLabel121);
+
+        jLabel122.setText("jLabel2");
+        jLabel122.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel122.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel122.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e3.add(jLabel122);
+
+        jLabel123.setText("jLabel3");
+        jLabel123.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel123.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel123.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s2e3.add(jLabel123);
+
+        mapGridJPanel.add(tile_s2e3);
+
+        tile_s3w3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s3w3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s3w3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s3w3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w3.setLayout(new javax.swing.OverlayLayout(tile_s3w3));
+
+        jLabel127.setText("jLabel1");
+        jLabel127.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel127.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel127.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w3.add(jLabel127);
+
+        jLabel128.setText("jLabel2");
+        jLabel128.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel128.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel128.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w3.add(jLabel128);
+
+        jLabel129.setText("jLabel3");
+        jLabel129.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel129.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel129.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w3.add(jLabel129);
+
+        mapGridJPanel.add(tile_s3w3);
+
+        tile_s3w2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s3w2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s3w2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s3w2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w2.setLayout(new javax.swing.OverlayLayout(tile_s3w2));
+
+        jLabel130.setText("jLabel1");
+        jLabel130.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel130.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel130.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w2.add(jLabel130);
+
+        jLabel131.setText("jLabel2");
+        jLabel131.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel131.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel131.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w2.add(jLabel131);
+
+        jLabel132.setText("jLabel3");
+        jLabel132.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel132.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel132.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w2.add(jLabel132);
+
+        mapGridJPanel.add(tile_s3w2);
+
+        tile_s3w1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s3w1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s3w1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s3w1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w1.setLayout(new javax.swing.OverlayLayout(tile_s3w1));
+
+        jLabel133.setText("jLabel1");
+        jLabel133.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel133.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel133.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w1.add(jLabel133);
+
+        jLabel134.setText("jLabel2");
+        jLabel134.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel134.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel134.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w1.add(jLabel134);
+
+        jLabel135.setText("jLabel3");
+        jLabel135.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel135.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel135.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3w1.add(jLabel135);
+
+        mapGridJPanel.add(tile_s3w1);
+
+        tile_s3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3.setLayout(new javax.swing.OverlayLayout(tile_s3));
+
+        jLabel136.setText("jLabel1");
+        jLabel136.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel136.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel136.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3.add(jLabel136);
+
+        jLabel137.setText("jLabel2");
+        jLabel137.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel137.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel137.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3.add(jLabel137);
+
+        jLabel138.setText("jLabel3");
+        jLabel138.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel138.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel138.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3.add(jLabel138);
+
+        mapGridJPanel.add(tile_s3);
+
+        tile_s3e1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s3e1.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s3e1.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s3e1.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e1.setLayout(new javax.swing.OverlayLayout(tile_s3e1));
+
+        jLabel139.setText("jLabel1");
+        jLabel139.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel139.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel139.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e1.add(jLabel139);
+
+        jLabel140.setText("jLabel2");
+        jLabel140.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel140.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel140.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e1.add(jLabel140);
+
+        jLabel141.setText("jLabel3");
+        jLabel141.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel141.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel141.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e1.add(jLabel141);
+
+        mapGridJPanel.add(tile_s3e1);
+
+        tile_s3e2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s3e2.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s3e2.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s3e2.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e2.setLayout(new javax.swing.OverlayLayout(tile_s3e2));
+
+        jLabel142.setText("jLabel1");
+        jLabel142.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel142.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel142.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e2.add(jLabel142);
+
+        jLabel143.setText("jLabel2");
+        jLabel143.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel143.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel143.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e2.add(jLabel143);
+
+        jLabel144.setText("jLabel3");
+        jLabel144.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel144.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel144.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e2.add(jLabel144);
+
+        mapGridJPanel.add(tile_s3e2);
+
+        tile_s3e3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        tile_s3e3.setMaximumSize(new java.awt.Dimension(80, 80));
+        tile_s3e3.setMinimumSize(new java.awt.Dimension(80, 80));
+        tile_s3e3.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e3.setLayout(new javax.swing.OverlayLayout(tile_s3e3));
+
+        jLabel145.setText("jLabel1");
+        jLabel145.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel145.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel145.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e3.add(jLabel145);
+
+        jLabel146.setText("jLabel2");
+        jLabel146.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel146.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel146.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e3.add(jLabel146);
+
+        jLabel147.setText("jLabel3");
+        jLabel147.setMaximumSize(new java.awt.Dimension(80, 80));
+        jLabel147.setMinimumSize(new java.awt.Dimension(80, 80));
+        jLabel147.setPreferredSize(new java.awt.Dimension(80, 80));
+        tile_s3e3.add(jLabel147);
+
+        mapGridJPanel.add(tile_s3e3);
+
+        mapJSplitPane.setLeftComponent(mapGridJPanel);
+
+        sideJPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        sideJPanel.setMaximumSize(new java.awt.Dimension(2147483647, 240));
+        sideJPanel.setMinimumSize(new java.awt.Dimension(2147483647, 240));
+        sideJPanel.setPreferredSize(new java.awt.Dimension(2147483647, 240));
+        sideJPanel.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 5, 10));
+
+        healthBarJLabel.setText("Health Points");
+        healthBarJLabel.setMaximumSize(new java.awt.Dimension(230, 35));
+        healthBarJLabel.setMinimumSize(new java.awt.Dimension(230, 35));
+        healthBarJLabel.setPreferredSize(new java.awt.Dimension(230, 30));
+        sideJPanel.add(healthBarJLabel);
+
+        HealthJProgressBar.setForeground(new java.awt.Color(255, 0, 0));
+        HealthJProgressBar.setValue(80);
+        HealthJProgressBar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        HealthJProgressBar.setMaximumSize(new java.awt.Dimension(230, 35));
+        HealthJProgressBar.setMinimumSize(new java.awt.Dimension(230, 35));
+        HealthJProgressBar.setPreferredSize(new java.awt.Dimension(230, 30));
+        sideJPanel.add(HealthJProgressBar);
+
+        energyBarJLabel.setText("Energy Points");
+        energyBarJLabel.setMaximumSize(new java.awt.Dimension(230, 35));
+        energyBarJLabel.setMinimumSize(new java.awt.Dimension(230, 35));
+        energyBarJLabel.setPreferredSize(new java.awt.Dimension(230, 30));
+        sideJPanel.add(energyBarJLabel);
+
+        EnergyJProgressBar.setForeground(new java.awt.Color(0, 255, 0));
+        EnergyJProgressBar.setValue(60);
+        EnergyJProgressBar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        EnergyJProgressBar.setMaximumSize(new java.awt.Dimension(230, 35));
+        EnergyJProgressBar.setMinimumSize(new java.awt.Dimension(230, 35));
+        EnergyJProgressBar.setPreferredSize(new java.awt.Dimension(230, 30));
+        sideJPanel.add(EnergyJProgressBar);
+
+        miniMapJPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        miniMapJPanel.setMaximumSize(new java.awt.Dimension(230, 230));
+        miniMapJPanel.setMinimumSize(new java.awt.Dimension(230, 230));
+        miniMapJPanel.setPreferredSize(new java.awt.Dimension(220, 220));
+        sideJPanel.add(miniMapJPanel);
+
+        mapJSplitPane.setRightComponent(sideJPanel);
+
+        mapOuterJPanel.add(mapJSplitPane, java.awt.BorderLayout.CENTER);
+
+        getContentPane().add(mapOuterJPanel);
+
+        titleJPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        titleJPanel.setLayout(new java.awt.GridLayout(1, 0));
 
         titleJLabel.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         titleJLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -270,11 +1586,8 @@ public class Tela extends javax.swing.JFrame {
 
         getContentPane().add(titleJPanel);
 
-        jMenu1.setText("File");
-        mainJMenuBar.add(jMenu1);
-
-        jMenu2.setText("Edit");
-        mainJMenuBar.add(jMenu2);
+        GameJMenu.setText("Game");
+        mainJMenuBar.add(GameJMenu);
 
         setJMenuBar(mainJMenuBar);
 
@@ -315,14 +1628,67 @@ public class Tela extends javax.swing.JFrame {
             }
         });
     }
-
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JProgressBar EnergyJProgressBar;
+    private javax.swing.JMenu GameJMenu;
+    private javax.swing.JProgressBar HealthJProgressBar;
+    private javax.swing.JLabel energyBarJLabel;
+    private javax.swing.JLabel healthBarJLabel;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
+    private javax.swing.JLabel jLabel111;
+    private javax.swing.JLabel jLabel112;
+    private javax.swing.JLabel jLabel113;
+    private javax.swing.JLabel jLabel114;
+    private javax.swing.JLabel jLabel115;
+    private javax.swing.JLabel jLabel116;
+    private javax.swing.JLabel jLabel117;
+    private javax.swing.JLabel jLabel118;
+    private javax.swing.JLabel jLabel119;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel120;
+    private javax.swing.JLabel jLabel121;
+    private javax.swing.JLabel jLabel122;
+    private javax.swing.JLabel jLabel123;
+    private javax.swing.JLabel jLabel124;
+    private javax.swing.JLabel jLabel125;
+    private javax.swing.JLabel jLabel126;
+    private javax.swing.JLabel jLabel127;
+    private javax.swing.JLabel jLabel128;
+    private javax.swing.JLabel jLabel129;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel130;
+    private javax.swing.JLabel jLabel131;
+    private javax.swing.JLabel jLabel132;
+    private javax.swing.JLabel jLabel133;
+    private javax.swing.JLabel jLabel134;
+    private javax.swing.JLabel jLabel135;
+    private javax.swing.JLabel jLabel136;
+    private javax.swing.JLabel jLabel137;
+    private javax.swing.JLabel jLabel138;
+    private javax.swing.JLabel jLabel139;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel140;
+    private javax.swing.JLabel jLabel141;
+    private javax.swing.JLabel jLabel142;
+    private javax.swing.JLabel jLabel143;
+    private javax.swing.JLabel jLabel144;
+    private javax.swing.JLabel jLabel145;
+    private javax.swing.JLabel jLabel146;
+    private javax.swing.JLabel jLabel147;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
@@ -362,17 +1728,117 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JMenuBar mainJMenuBar;
     private javax.swing.JPanel mapGridJPanel;
-    private javax.swing.JPanel mapJPanel;
+    private javax.swing.JSplitPane mapJSplitPane;
+    private javax.swing.JPanel mapOuterJPanel;
+    private javax.swing.JPanel miniMapJPanel;
+    private javax.swing.JPanel sideJPanel;
+    private javax.swing.JPanel tile_0;
+    private javax.swing.JPanel tile_e1;
+    private javax.swing.JPanel tile_e2;
+    private javax.swing.JPanel tile_e3;
+    private javax.swing.JPanel tile_n1;
+    private javax.swing.JPanel tile_n1e1;
+    private javax.swing.JPanel tile_n1e2;
+    private javax.swing.JPanel tile_n1e3;
+    private javax.swing.JPanel tile_n1w1;
+    private javax.swing.JPanel tile_n1w2;
+    private javax.swing.JPanel tile_n1w3;
+    private javax.swing.JPanel tile_n2;
+    private javax.swing.JPanel tile_n2e1;
+    private javax.swing.JPanel tile_n2e2;
+    private javax.swing.JPanel tile_n2e3;
+    private javax.swing.JPanel tile_n2w1;
+    private javax.swing.JPanel tile_n2w2;
+    private javax.swing.JPanel tile_n2w3;
+    private javax.swing.JPanel tile_n3;
+    private javax.swing.JPanel tile_n3e1;
+    private javax.swing.JPanel tile_n3e2;
+    private javax.swing.JPanel tile_n3e3;
+    private javax.swing.JPanel tile_n3w1;
+    private javax.swing.JPanel tile_n3w2;
+    private javax.swing.JPanel tile_n3w3;
+    private javax.swing.JPanel tile_s1;
+    private javax.swing.JPanel tile_s1e1;
+    private javax.swing.JPanel tile_s1e2;
+    private javax.swing.JPanel tile_s1e3;
+    private javax.swing.JPanel tile_s1w1;
+    private javax.swing.JPanel tile_s1w2;
+    private javax.swing.JPanel tile_s1w3;
+    private javax.swing.JPanel tile_s2;
+    private javax.swing.JPanel tile_s2e1;
+    private javax.swing.JPanel tile_s2e2;
+    private javax.swing.JPanel tile_s2e3;
+    private javax.swing.JPanel tile_s2w1;
+    private javax.swing.JPanel tile_s2w2;
+    private javax.swing.JPanel tile_s2w3;
+    private javax.swing.JPanel tile_s3;
+    private javax.swing.JPanel tile_s3e1;
+    private javax.swing.JPanel tile_s3e2;
+    private javax.swing.JPanel tile_s3e3;
+    private javax.swing.JPanel tile_s3w1;
+    private javax.swing.JPanel tile_s3w2;
+    private javax.swing.JPanel tile_s3w3;
+    private javax.swing.JPanel tile_w1;
+    private javax.swing.JPanel tile_w2;
+    private javax.swing.JPanel tile_w3;
     private javax.swing.JLabel titleJLabel;
     private javax.swing.JPanel titleJPanel;
     // End of variables declaration//GEN-END:variables
+    // </editor-fold>
 }
