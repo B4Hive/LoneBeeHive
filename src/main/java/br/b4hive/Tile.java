@@ -17,13 +17,17 @@ public class Tile {
         this.entity = null;
     }
 
-    public void placeEntity(Entity entity){
+    public void setEntity(Entity entity){
         this.entity = entity;
     }
     public Entity getEntity(){
         return entity;
     }
     public void removeEntity(){
+        this.entity = null;
+    }
+    public void moveEntity(Tile tile){
+        tile.entity = this.entity;
         this.entity = null;
     }
     //public Item pickUpItem(){
