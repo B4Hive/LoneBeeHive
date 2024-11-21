@@ -1,6 +1,6 @@
 package br.b4hive;
 
-public class GameCLI {
+public class CLI {
 
 	public static void clear() {
 		String os = System.getProperty("os.name").toLowerCase();

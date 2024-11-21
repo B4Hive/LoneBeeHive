@@ -3,9 +3,13 @@ package br.b4hive;
 import java.awt.*;
 
 public class Entity {
-    String name;
-    Point position;
+    private String name;
+    private Point position;
+    
     public String getName() {
         return name;
+    }
+    public Point getPosition() {
+        return position;
     }
 }
