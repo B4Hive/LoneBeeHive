@@ -1,6 +1,5 @@
 package br.b4hive;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,7 +8,6 @@ public class Engine {
     private static boolean initialized = false;
     private static MapGrid mapGrid;
     private static List<Entity> entities;
-
 
     private static void init(){
         mapGrid = new MapGrid();
@@ -21,39 +19,49 @@ public class Engine {
         }
         initialized = true;
     }
-	private static void Turn(){
-        Terminal.draw(entities.get(0).getPosition(), mapGrid);
-        control();
+    private static void quit(){
+        //save objects on this step
+        initialized = false;
     }
-    private static void control(){
+	private static void turn(){
+        Terminal.drawMap(entities.get(0).getPosition(), mapGrid);
+        control(null);
+    }
+    private static void control(String command){
         System.out.println();
         System.out.print("Control: ");
-        Scanner in = new Scanner(System.in);
-        char ch = in.nextLine().charAt(0);
-        Point p = entities.get(0).getPosition();
-        switch (ch){
-            case 'w':
-                move(entities.get(0), p.translate(0,-1));
+        if(command == null){
+            Scanner in = new Scanner(System.in);
+            command = in.nextLine();
+        }
+        switch (command){
+            case "w":
+                move(entities.get(0), 0,-1);
                 break;
-            case 'a':
-                move(entities.get(0), p.translate(-1,0));
+            case "a":
+                move(entities.get(0), -1,0);
                 break;
-            case 's':
-                move(entities.get(0), p.translate(0,1));
+            case "s":
+                move(entities.get(0), 0,1);
                 break;
-            case 'd':
-                move(entities.get(0), p.translate(1,0));
+            case "d":
+                move(entities.get(0), 1,0);
                 break;
-            case 'q':
-                System.out.println("quit");
-                initialized = false;
+            case "quit":
+                quit();
+                break;
+            case "start":
+                init();
                 break;
             default:
                 System.out.println("Invalid input");
+                Terminal.wait(2000);
                 break;
         }
     }
-    private static void move(Entity entity, Point p){
+    private static void move(Entity entity, int dx, int dy){
+        if(entity == null) return;
+        Point p = entity.getPosition().translate(dx,dy);
         for(Entity e:entities){
             if(e.getPosition().equals(p)){
                 return;
@@ -64,9 +72,13 @@ public class Engine {
     }
 
     public static void game(){
-        init();
+        do{
+            Terminal.drawMenu();
+            control(null);
+        }while(!initialized);
+
         while(initialized){
-            Turn();
+            turn();
         }
     }
 }

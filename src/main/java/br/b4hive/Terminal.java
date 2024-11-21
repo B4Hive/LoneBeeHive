@@ -8,6 +8,13 @@ public class Terminal {
         visibleSpace = new char[7][7];
         active = true;
     }
+    public static void wait(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
     private static void fillVisibleSpace(Point p, MapGrid map) {
         for (int j = 0; j < 7; j++) {
             for (int i = 0; i < 7; i++) {
@@ -21,11 +28,7 @@ public class Terminal {
             }
         }
     }
-    public static void draw(Point p, MapGrid map) {
-        if (!active) {
-            System.out.println("Error: Terminal is not active");
-            return;
-        }
+    public static void drawMap(Point p, MapGrid map) {
         CLI.clear();
         fillVisibleSpace(p, map);
         System.out.print(" +-");
@@ -49,5 +52,37 @@ public class Terminal {
         System.out.println("-+ ");
         System.out.println("Position: (" + p.x() + ", " + -p.y() + ")");
     }
-    
+    public static void drawMenu(){
+        CLI.clear();
+        System.out.print(" +-");
+        for (int i = 0; i < 7; i++) {
+            System.out.print("---");
+        }
+        System.out.println("-+ ");
+        for (int j = 0; j < 7; j++) {
+            System.out.print(" | ");
+//            switch (j){
+//                case 1:
+//                    System.out.println("     LoneBeehive     ");
+//                    break;
+//                case 3:
+//                    System.out.println("        Start        ");
+//                    break;
+//                case 5:
+//                    System.out.println("        Leave        ");
+//                    break;
+//                case 0, 2, 4, 6:
+//                    for (int i = 0; i < 7; i++) System.out.print("   ");
+//                default:
+//                    break;
+//            }
+            System.out.print(j);
+            System.out.println(" | ");
+        }
+        System.out.print(" +-");
+        for (int i = 0; i < 7; i++) {
+            System.out.print("---");
+        }
+        System.out.println("-+ ");
+    }
 }
