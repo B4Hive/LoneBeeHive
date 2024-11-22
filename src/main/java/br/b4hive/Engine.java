@@ -19,21 +19,27 @@ public class Engine {
         }
         initialized = true;
     }
+    private static void init(MapGrid m, Entity e){
+        mapGrid = m;
+        entities = new ArrayList<>();
+        entities.add(e);
+    }
     private static void quit(){
         //save objects on this step
         initialized = false;
     }
 	private static void turn(){
         Terminal.drawMap(entities.get(0).getPosition(), mapGrid);
+        Terminal.drawBar(entities.get(0));
         control(null);
     }
     private static void control(String command){
-        System.out.println();
-        System.out.print("Control: ");
         if(command == null){
+            System.out.print("Control: ");
             Scanner in = new Scanner(System.in);
             command = in.nextLine();
         }
+        command = command.toLowerCase();
         switch (command){
             case "w":
                 move(entities.get(0), 0,-1);
@@ -73,10 +79,11 @@ public class Engine {
 
     public static void game(){
         do{
-            Terminal.drawMenu();
+            Terminal.drawMainMenu();
+            Terminal.drawBar(null);
             control(null);
         }while(!initialized);
-
+        //need to fix above loop so that it won't need to start before quitting
         while(initialized){
             turn();
         }
