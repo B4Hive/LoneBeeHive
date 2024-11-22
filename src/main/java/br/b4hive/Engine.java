@@ -27,13 +27,15 @@ public class Engine {
     private static void quit(){
         //save objects on this step
         initialized = false;
+        CLI.clear();
+        System.out.println("Game quitted");
     }
 	private static void turn(){
         Terminal.drawMap(entities.get(0).getPosition(), mapGrid);
         Terminal.drawBar(entities.get(0));
         control(null);
     }
-    private static void control(String command){
+    private static boolean control(String command){
         if(command == null){
             System.out.print("Control: ");
             Scanner in = new Scanner(System.in);
@@ -55,7 +57,7 @@ public class Engine {
                 break;
             case "quit":
                 quit();
-                break;
+                return false;
             case "start":
                 init();
                 break;
@@ -64,6 +66,7 @@ public class Engine {
                 Terminal.wait(2000);
                 break;
         }
+        return true;
     }
     private static void move(Entity entity, int dx, int dy){
         if(entity == null) return;
@@ -81,7 +84,7 @@ public class Engine {
         do{
             Terminal.drawMainMenu();
             Terminal.drawBar(null);
-            control(null);
+            if(!control(null)) break;
         }while(!initialized);
         //need to fix above loop so that it won't need to start before quitting
         while(initialized){
