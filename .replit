@@ -1,4 +1,4 @@
 modules = ["java-graalvm22.3"]
 # .replit
-run = "mvn clean install && java -jar target/LoneBeehive-0.0.jar"
+run = "mvn clean install && java -jar target/LoneBeehive-0.2.jar"
 # ... other configurations

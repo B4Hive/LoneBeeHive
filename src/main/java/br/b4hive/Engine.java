@@ -55,7 +55,7 @@ public class Engine {
             case "d":
                 move(entities.get(0), 1,0);
                 break;
-            case "quit":
+            case "quit", "q":
                 quit();
                 return false;
             case "start":
@@ -63,7 +63,7 @@ public class Engine {
                 break;
             default:
                 System.out.println("Invalid input");
-                Terminal.wait(2000);
+                Terminal.wait(3000);
                 break;
         }
         return true;
@@ -80,7 +80,7 @@ public class Engine {
         entity.setPosition(p);
     }
 
-    public static void game(){
+    public static void gameTerminal(){
         do{
             Terminal.drawMainMenu();
             Terminal.drawBar(null);
@@ -91,4 +91,5 @@ public class Engine {
             turn();
         }
     }
+
 }

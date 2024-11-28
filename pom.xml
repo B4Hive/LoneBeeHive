@@ -6,7 +6,7 @@
 
     <groupId>br.b4hive</groupId>
     <artifactId>LoneBeehive</artifactId>
-    <version>0.0</version>
+    <version>0.2</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
