@@ -11,8 +11,8 @@ public class Engine {
 
     private static void init(){
         mapGrid = new MapGrid();
-        entities = new ArrayList<Entity>();
-        entities.add(new Entity("@",new Point(0,0)));
+        entities = new ArrayList<>();
+        entities.add(new Entity("@",new Coordinate(0,0)));
         Terminal.init(mapGrid);
         for(Entity e:entities){
             mapGrid.get(e.getPosition()).setEntity(e);
@@ -28,7 +28,7 @@ public class Engine {
         //save objects on this step
         initialized = false;
         CLI.clear();
-        System.out.println("Game quitted");
+        System.out.println("Game quit");
     }
 	private static void turn(){
         Terminal.drawMap(entities.get(0).getPosition(), mapGrid);
@@ -70,7 +70,7 @@ public class Engine {
     }
     private static void move(Entity entity, int dx, int dy){
         if(entity == null) return;
-        Point p = entity.getPosition().translate(dx,dy);
+        Coordinate p = entity.getPosition().translate(dx,dy);
         for(Entity e:entities){
             if(e.getPosition().equals(p)){
                 return;

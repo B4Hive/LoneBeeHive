@@ -15,12 +15,12 @@ public class Terminal {
             Thread.currentThread().interrupt();
         }
     }
-    private static void fillVisibleSpace(Point p, MapGrid map) {
+    private static void fillVisibleSpace(Coordinate p, MapGrid map) {
         for (int j = 0; j < 7; j++) {
             for (int i = 0; i < 7; i++) {
                 int pX = p.x() - 3 + i;
                 int pY = p.y() - 3 + j;
-                Point p1 = new Point(pX, pY);
+                Coordinate p1 = new Coordinate(pX, pY);
                 if(map.get(p1).getEntity() == null)
                     visibleSpace[i][j] = map.get(p1).getGroundType().charAt(0);
                 else
@@ -28,7 +28,7 @@ public class Terminal {
             }
         }
     }
-    public static void drawMap(Point p, MapGrid map) {
+    public static void drawMap(Coordinate p, MapGrid map) {
         CLI.clear();
         fillVisibleSpace(p, map);
         System.out.print(" +-");
